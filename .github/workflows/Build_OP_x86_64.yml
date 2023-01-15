@@ -69,6 +69,7 @@ jobs:
         echo "src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall;luci" >> ./feeds.conf.default
         echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall;packages" >> ./feeds.conf.default
         echo "src-git ddnsgo https://github.com/sirpdboy/luci-app-ddns-go.git" >> ./feeds.conf.default
+        echo "src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git" >> ./feeds.conf.default
         
     - name: Update & Install feeds
       working-directory: ./openwrt
